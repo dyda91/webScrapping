@@ -49,6 +49,6 @@ for produto in produtos:
     lista_produtos = pd.DataFrame(Todos_os_produtos, columns=['Titulo', 'Preço', 'Link'])
 
 
-    lista_produtos.to_json('produtos.json')
+    lista_produtos.to_excel('produtos.xlsx')
 
 
